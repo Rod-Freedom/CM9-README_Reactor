@@ -34,11 +34,14 @@ const renderLicense = (userN, repo, style, licStatus) => {
 function generateMarkdown(data) {
   const license = renderLicense(data.userN, data.repo, data.style, data.licStatus);
   
-  const content = `<header style="background: rgb(30 41 59 / 0.8); text-align: center; border-radius: 5px; padding-bottom: 14px; color: rgb(226 232 240/ .9);">
-<span style="font-weight: bold; font-size: xxx-large;">${data.title}</span><br>
-<span style="font-style: italic; font-weight: 100; font-size: x-large">${data.slogan}</span>
-</header>
-<br>
+  const content = `<h3 align="center">${data.title}</h3>
+
+<p align="center"><i>${data.slogan}</i></p>
+
+<p align="center">
+<a href="${data.licStatus}"><img src="https://img.shields.io/github/license/${data.userN}/${data.repo}?style=${data.style}" alt="License"></a>
+</p>
+
 <br>
 <br>
 
