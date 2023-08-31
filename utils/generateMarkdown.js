@@ -70,8 +70,8 @@ ${license}
 
 [(Back to the Top)](#about-the-project)
 ## Resources
-> <span style="color: lightseagreen;">**ATTENTION**</span><br>
-Don't forget to add the technologies/resources you used in your project.
+> **ATTENTION**<br>
+> Remember to add the technologies/resources you used in your project.
 
 * Resource one
 * Resource two
